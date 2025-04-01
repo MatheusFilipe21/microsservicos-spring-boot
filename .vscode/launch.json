@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Usuario - 8100 (desenvolvimento)",
+            "request": "launch",
+            "mainClass": "br.dev.mfnp.usuario_servico.UsuarioServicoApplication",
+            "projectName": "usuario-servico",
+            "args": [
+                "--server.port=8100",
+                "--spring.profiles.active=desenvolvimento"
+            ],
+            "env": {
+                "SPRING_CONFIG_LOCATION": "file:${workspaceFolder}/usuario-servico/src/main/resources/"
+            }
+        }
+    ]
+}
