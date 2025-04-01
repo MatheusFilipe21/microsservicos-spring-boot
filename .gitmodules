@@ -1,0 +1,8 @@
+[submodule "comum"]
+	path = comum
+	url = https://github.com/MatheusFilipe21/comum.git
+	branch = develop
+[submodule "usuario-servico"]
+	path = usuario-servico
+	url = https://github.com/MatheusFilipe21/usuario-servico.git
+	branch = develop
