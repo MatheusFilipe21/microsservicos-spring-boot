@@ -5,6 +5,7 @@
     "postCreateCommand": "chmod +x .devcontainer/devcontainer.sh && .devcontainer/devcontainer.sh",
     "remoteUser": "root",
     "runArgs": [
+        "--network=dev-network",
         "--mount",
         "type=bind,source=/var/run/docker.sock,target=/var/run/docker.sock",
         "-p",
