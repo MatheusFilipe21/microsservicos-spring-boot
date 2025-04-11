@@ -1,0 +1,33 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Build - Comum",
+        "type": "shell",
+        "command": "./comum.sh",
+        "options": {
+          "cwd": "${workspaceFolder}/build"
+        },
+        "group": "build",
+        "presentation": {
+          "reveal": "always",
+          "panel": "dedicated"
+        },
+        "problemMatcher": []
+      },
+      {
+        "label": "Build - Usuario Servico",
+        "type": "shell",
+        "command": "./usuario-servico.sh",
+        "options": {
+          "cwd": "${workspaceFolder}/build"
+        },
+        "group": "build",
+        "presentation": {
+          "reveal": "always",
+          "panel": "dedicated"
+        },
+        "problemMatcher": []
+      }
+    ]
+  }
